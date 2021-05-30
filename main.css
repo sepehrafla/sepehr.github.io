@@ -447,12 +447,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #DCFFF7;
+    background-color: #16167D;
     /*background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-390deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;*/
     /*background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(120deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;*/
     /*background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;*/
     /*background-position: 10%, 30%, 50%, 70%, 90%, 0;*/
-    background: linear-gradient(120deg, #DCFFF7 0%, #F7EFF7 100%) no-repeat;
+    background: linear-gradient(120deg, #16167D 0%, #6B196B 100%) no-repeat;
     background-position: 0;
     background-size: 100% auto;
     background-attachment: fixed;
@@ -540,4 +540,102 @@ html, body {
     .intro {
         padding: 0 3.5em;
     }
+}
+
+.container {
+    width: 80%;
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 87.5em) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 61.625em) {
+    .container {
+        width: 100%;
+    }
+}
+
+html {
+    font: 800 normal 100%/1.4 "proxima-nova", "brandon-grotesque", sans-serif;
+}
+
+@media screen and (max-width: 100em) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 87.5em) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 61.625em) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 33.75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "proxima-nova", "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: "proxima-nova", "brandon-grotesque", sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.125em;
+}
+
+p {
+    max-width: 37.5em;
+    margin: 0.625em 0;
+    padding: 0;
+    font-family: "proxima-nova", "brandon-grotesque", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+a {
+    color: #262626;
+    text-decoration: underline;
 }
