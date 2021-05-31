@@ -559,6 +559,43 @@ html, body {
         width: 100%;
     }
 }
+.about {
+    height: 26.25em;
+    margin: 10em 0;
+    color: #777777;
+}
+
+.about .container {
+    height: 100%;
+}
+
+.about .content {
+    float: left;
+}
+
+.about p {
+    max-width: 27.5em;
+    color: #999999;
+}
+
+.about a {
+    display: block;
+    text-decoration: none;
+}
+
+.about a p {
+    display: inline-block;
+    padding: 0;
+    line-height: 1.6;
+    border-bottom: 0.125em solid #CCCCCC;
+}
+
+.about img {
+    width: 19em;
+    height: auto;
+    float: right;
+    position: relative;
+}
 
 html {
     font: 800 normal 100%/1.4 "proxima-nova", "brandon-grotesque", sans-serif;
@@ -638,4 +675,38 @@ p {
 a {
     color: #262626;
     text-decoration: underline;
+}
+
+h2.header {
+    position: relative;
+    left: 5vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #777777;
+    opacity: 0.33;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+
+@media screen and (max-width: 87.5em) {
+    h2.header {
+        display: none;
+    }
+}
+
+#header-about {
+    top: 3em;
+}
+
+#header-projects {
+    top: 4.5em;
+}
+
+#header-contact {
+    top: 6em;
 }
