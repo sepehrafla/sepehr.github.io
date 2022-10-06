@@ -48,10 +48,15 @@
         
         <!-- ====Custom Stylesheet==== -->
         <link href="css-copy/custom-style.css" rel="stylesheet">
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+<!-- Calendly badge widget end -->
 
     </head>
 
     <body>
+        
         <!-- Loader -->
         <!-- <div id="preloader">
             <div id="status">
@@ -235,7 +240,9 @@
                 </div>
 
             </div>
-        </div></div></div>
+        </div>
+    </div>
+</div>
         </div>
         <!-- Works Area End -->
 
@@ -287,5 +294,7 @@
         <script src="https://unicons.iconscout.com/release/v2.1.9/script/monochrome/bundle.js"></script>
         <!-- Main Js -->
         <script src="js/app.js"></script>
+        <script src="js/calendly-widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/saflatounian', text: 'Coffee Chat', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
     </body>
 </html>
